@@ -7,31 +7,11 @@
   pointer-events: none;
 }
 
-.box {
-  height: 200px;
-  width: 200px;
-  background: pink;
-  overflow: hidden;
-  font-size: 200px;
-  font-family: serif;
-  font-weight: bolder;
-  line-height: 200px;
-  margin-top: -5px;
-  margin-bottom: -5px;
-}
-
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo,
-  .box {
-    animation: App-logo-spin infinite 5s linear;
-  }
-}
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .box {
+  .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-} */
+}
 
 .App-header {
   background-color: #282c34;
@@ -50,9 +30,9 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(-30deg);
+    transform: rotate(0deg);
   }
   to {
-    transform: rotate(330deg);
+    transform: rotate(360deg);
   }
 }
